@@ -8,8 +8,5 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Home Page"
-    url: https://zw3409.github.io/
-
   - title: "Publications"
     url: https://zw3409.github.io/publications/
