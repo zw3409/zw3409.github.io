@@ -1,11 +1,12 @@
+---
 title: "Optimal Transport with a Density-Dependent Cost Function"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-11-04-density-dependent-optimal-transport
-excerpt: 'We propose a density-dependent cost function for optimal transport, where the cost between two points is defined through a minimal-action path that accounts for an underlying probability distribution.'
+excerpt: "We propose a density-dependent cost function for optimal transport, where the cost between two points is defined through a minimal-action path that accounts for an underlying probability distribution."
 date: 2025-11-04
-venue: 'Information and Inference: A Journal of the IMA, submitted'
-paperurl: 'https://arxiv.org/pdf/2511.02929'
+venue: "Information and Inference: A Journal of the IMA, submitted"
+paperurl: "https://arxiv.org/pdf/2511.02929"
 citation: 'Zichu Wang and Esteban G. Tabak. &quot;Optimal Transport with a Density-Dependent Cost Function.&quot; <i>Information and Inference: A Journal of the IMA</i>, submitted.'
 ---
 
