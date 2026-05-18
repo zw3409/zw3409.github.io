@@ -5,32 +5,84 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div style="margin-bottom: 3em;">
+  <h2>
+    <a href="https://arxiv.org/pdf/2601.07045">
+      From Continuous to Discrete: A No-U-Turn Sampler for Permutations
+    </a>
+  </h2>
 
-{% include base_path %}
+  <p><strong>Authors:</strong> Nawaf Bou-Rabee, Zichu Wang</p>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <p><em>Quarterly of Applied Mathematics, accepted, 2026</em></p>
+
+  <p>
+    We introduce a discrete-space analogue of the No-U-Turn sampler on the symmetric group. 
+    The method replaces continuous Hamiltonian trajectories with measure-preserving group-orbit 
+    exploration, giving a locally adaptive and reversible Markov chain Monte Carlo algorithm 
+    for distributions on permutations.
+  </p>
+
+  <p>
+    The paper develops the construction of the sampler, proves reversibility through the Gibbs 
+    self-tuning framework, and establishes mixing-time guarantees for the Mallows model under 
+    suitable assumptions.
+  </p>
+
+  <p>Download <a href="https://arxiv.org/pdf/2601.07045">here</a>.</p>
+</div>
 
 
+<div style="margin-bottom: 3em;">
+  <h2>
+    <a href="https://arxiv.org/pdf/2511.02929">
+      Optimal Transport with a Density-Dependent Cost Function
+    </a>
+  </h2>
 
+  <p><strong>Authors:</strong> Zichu Wang, Esteban G. Tabak</p>
+
+  <p><em>Submitted to Information and Inference: A Journal of the IMA, 2025</em></p>
+
+  <p>
+    We propose a density-dependent cost function for optimal transport. In this formulation, 
+    the cost between two points is defined through a minimal-action path whose Lagrangian 
+    depends on an underlying probability distribution. This construction makes two points close 
+    only when they can be connected by paths that avoid regions of small probability.
+  </p>
+
+  <p>
+    The resulting transport geometry is therefore sensitive to the underlying data distribution 
+    and can better capture the intrinsic structure of the data. We develop a numerical framework 
+    for the corresponding data-driven optimal transport problem, with applications to clustering 
+    and matching problems.
+  </p>
+
+  <p>Download <a href="https://arxiv.org/pdf/2511.02929">here</a>.</p>
+</div>
+
+
+<div style="margin-bottom: 3em;">
+  <h2>
+    How I Learned to Stop Worrying and Love StopGrads: Stationarity, Convergence, and a Case Study on Flow Map Learning
+  </h2>
+
+  <p><strong>Authors:</strong> Mark Goldstein, Max W. Shen, Zichu Wang, Aahlad Manas Puli, Rajesh Ranganath</p>
+
+  <p><em>NeurIPS 2026 Conference Submission, 2026</em></p>
+
+  <p>
+    Stopgrad methods are widely used in training machine learning models, but stopgrad operations 
+    can alter gradients, stationary points, and convergence guarantees of the original objective.
+  </p>
+
+  <p>
+    In this work, we introduce a stopgrad regression principle, which identifies a general template 
+    for stopgrad objectives with a closed-form characterization of stationary points. The framework 
+    unifies stopgrad objectives for flow maps, reinforcement learning, and diffusion samplers. We also 
+    provide theoretical grounding for optimizing stopgrad flow map objectives by characterizing stationary 
+    points and proving convergence results.
+  </p>
+
+  <p>This paper is currently under review.</p>
+</div>
