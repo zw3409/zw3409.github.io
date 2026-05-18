@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 3"
+title: "From Continuous to Discrete: A No-U-Turn Sampler for Permutations"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2026-01-11-no-u-turn-sampler-permutations
+excerpt: 'We introduce a discrete-space analogue of the No-U-Turn sampler on the symmetric group, yielding a locally adaptive and reversible Markov chain Monte Carlo method for distributions on permutations.'
+date: 2026-01-11
+venue: 'Quarterly of Applied Mathematics, accepted'
+paperurl: 'https://arxiv.org/pdf/2601.07045'
+citation: 'Nawaf Bou-Rabee and Zichu Wang. &quot;From Continuous to Discrete: A No-U-Turn Sampler for Permutations.&quot; <i>Quarterly of Applied Mathematics</i>, accepted.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+We introduce a discrete-space analogue of the No-U-Turn sampler on the symmetric group. The method replaces continuous Hamiltonian trajectories with measure-preserving group-orbit exploration, giving a locally adaptive and reversible Markov chain Monte Carlo algorithm for distributions on permutations. The paper develops the construction of the sampler, proves reversibility through the Gibbs self-tuning framework, and establishes mixing-time guarantees for the Mallows model under suitable assumptions.
